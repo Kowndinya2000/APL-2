@@ -6,7 +6,7 @@
 main:
 .LFB0:
 	.cfi_startproc
-	push	rbp                  ; previous function's base address is being pushed into the current stack
+	push	rbp                  
 	.cfi_def_cfa_offset 16
 	.cfi_offset 6, -16
 	mov	rbp, rsp               ; rbp <- rsp
